@@ -14,8 +14,9 @@ pwd = os.getcwd()
 #ws = WS("data")
 
 # Articut
-username = "enjui.chang@gmail.com" 
-apikey = "Y4&Z@-lH1wU&Kra&MW@r9Nncss_YMj*" 
+# Input username and api key
+username = "" 
+apikey = "" 
 
 articut = Articut(username, apikey)
 
