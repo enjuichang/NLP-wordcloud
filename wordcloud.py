@@ -7,7 +7,7 @@ def word_cloud_gen(wordfreq_dict,path_list):
     for i, dict in enumerate(wordfreq_dict):
         # create the WordCloud object
         wordcloud = WordCloud(min_word_length =3,
-                              background_color='white',font_path = 'SourceHanSansTW-Regular.otf')
+                              background_color='white',font_path = 'data/SourceHanSansTW-Regular.otf')
 
         # generate the word cloud
         wordcloud.generate_from_frequencies(dict)
@@ -25,7 +25,7 @@ if __name__ == "__main__":
 
     # Total Word Cloud
     wordcloud = WordCloud(min_word_length =3,
-                                background_color='white',font_path = 'SourceHanSansTW-Regular.otf')
+                                background_color='white',font_path = 'data/SourceHanSansTW-Regular.otf')
     # generate the word cloud
     wordcloud.generate_from_frequencies(wordfreq_total)
 
