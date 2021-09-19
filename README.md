@@ -1,14 +1,12 @@
 # NLP-wordcloud
 
 ## About the project
----
 This project extract theme and word frequency from texts to generate wordclouds of each document and the total text. This was one of my earlier project using VS code; therefore, there are some inmature usage of import and `.py` files in general.
 
 
 ## Getting Started
----
 ### Prerequisites
-- **Word Separation (WS)**: Chinese/Japanese text struggle with the word separation problem due to the lack of spaces between each word. This project support `jieba`, `ckiptagger`, and `Articut` packages to perform word separation.
+- **Word Separation (WS)**: Chinese/Japanese text struggle with the word separation problem due to the lack of spaces between each word. This project support `jieba`, `ckiptagger`, and `Articut` packages to perform word separation. (For `ckiptagger` please download the model files from [this link](https://github.com/ckiplab/ckiptagger) and add in the `data` directory)
 - **Data structure**: `numpy` and `pandas` packages as the structure for processing data.
 - **Wordcloud**: For the plotting of wordcloud, I used the `wordcloud` and `matplotlib.pyplot` packages to generate the plot. Please also install a `.oft` file for the text style of the wordcloud.
 
