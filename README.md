@@ -33,7 +33,7 @@ git clone https://github.com/enjuichang/NLP-wordcloud.git
 #### CSV
 - *TXTNAME*_df.csv: Records the word frequencies for each document and all documents
 - *TXTNAME*_theme.csv: Records the theme frequencies for each document and all documents
-### PNG
+#### PNG
 - *TXTNAME*.png: Wordcloud figures for each document and all documents
 - *TXTNAME*_pie.png: Pie chart of the theme of each document and all documents
  
