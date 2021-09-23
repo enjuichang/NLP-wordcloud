@@ -29,6 +29,10 @@ git clone https://github.com/enjuichang/NLP-wordcloud.git
 - `wordcloud.py`: This python file generates the word clouds for each document and all documents through the word frequencies.
 - `piechart.py`: This python file generates the pie charts for each document and all documents through the word frequencies.
 
+### Visualization
+- For closer snapshot please check this [Miro page](https://miro.com/app/board/o9J_lvU9AyY=/)
+<img width="1049" alt="Screen Shot 2021-09-23 at 11 50 53 AM" src="https://user-images.githubusercontent.com/55577469/134494903-8caa8d7f-b749-4b9d-8496-6045fe75d8a7.png">
+
 ### Data output
 #### CSV
 - *TXTNAME*_df.csv: Records the word frequencies for each document and all documents
